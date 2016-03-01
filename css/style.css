@@ -115,13 +115,14 @@ li{
     display: block;
     margin: auto;
     width:80%;
-    height: 200px;
+    height: 210px;
     background-color: #fff;
     border-radius: .8rem;
+    box-shadow: -.1rem .1rem lightgrey;
 }
 .title{
     font-size: 32px;
-    font-family:serif;
+    font-family:sans-serif;
     color: black;
     letter-spacing: .1rem;
     text-decoration: none;
@@ -130,33 +131,27 @@ li{
     opacity: .5;
     color: #728ba8;
 }
-.floating-box {
-    display: inline-block;
-    width: calc(100%/3);
-    margin: 10px;
+.contact{
+    width: calc(90%/3);
     font-size: 13px;
-    
+    height: 190px;
+    float: left;
+    padding-left: 2rem;
+    margin: 0;
 }
-#float1{
-    margin: 0 auto;
-    padding: 0;
-    float:left;
-    width:calc(80%/3);
-    height: 240px
+p{
+    margin: 0;
+    padding: .2rem;
 }
-#float2{
-    margin: 0 auto;
+.content{
+    text-decoration: none;
     padding: 0;
-    float:left;
-    width:calc(80%/3);
-    height: 240px
+    margin: 0;
+    color:#5397b4;
+    font-size: 14px;
 }
-#float3{
-    margin: 0 auto;
-    padding: 0;
-    float:left;
-    width:calc(80%/3);
-    height: 240px
+.content:hover{
+    text-decoration: underline;
 }
 /*
 #box1{
