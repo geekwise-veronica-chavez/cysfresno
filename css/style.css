@@ -16,7 +16,7 @@ header{
     margin: 0 auto;
     padding: 0;
     width: 100%;
-    height: 350px;
+    height: 480px;
     overflow: hidden;
     background-color: #728ba8;
 }
@@ -37,8 +37,8 @@ header{
     width: 80%;
     margin:auto;
     padding: 0;
-    margin-top: -8px;
-    margin-left: 9%;
+    margin-top: -3px;
+    margin-left: 7%;
 }
 
 li{
@@ -64,6 +64,13 @@ li{
     padding: .5rem;
     border-radius: .5rem;   
 }
+.home{ 
+    background-color: #f4f4f4;
+    color:#728ba8;
+    padding: .8rem;
+    border-radius: .5rem;
+    
+}
 #top_menu{
     color:#ffffff;
     display: block;
@@ -72,40 +79,41 @@ li{
     margin: 0;
 
 }
-.nav_menu{
-    display: block;
-        
-    
-}
+
 #image{
-   margin: 0 auto;
+    text-align: center;
+   margin: 0;
     padding: 0;
     position: relative;
     top:100%;
-    transform: translateY(-60%);    
+    transform: translateY(-97%); 
+   
+
 }
 .slider{
     width: 78%;
+    margin-top: .5rem;
+    border: solid white .5rem;
+   box-shadow: 0px 3px lightgrey;
 }
-
+.line{
+    position: relative;
+    top: 50%;
+    width: 100%;
+    background-color: #fff;
+    height: 90px;
+    visibility: visible;
+    
+}
 main{
     margin: 0 auto;
     padding: 0;
     width: 80%;
-    height:800px;
-    background-color: #ffffff;
     display: block;
-    
     box-sizing: border-box;
 }
 
-#image{
-    margin: 0 auto;
-    padding: 0;
-    text-align: center;
-    width: 100%;
-    height:;
-}
+
 #_text1{
     
     display: block;
