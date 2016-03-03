@@ -166,7 +166,7 @@ p{
     margin-top: 4rem;
     padding:0;
     width:80%;
-    height:550px;
+    height:575px;
     font-size:14px;
     text-align: left;
     background-color: #fff;
@@ -188,7 +188,7 @@ p{
     padding-right:10px;
     float:left;
     width:calc(90%/3);
-    height: 100%;
+    height: auto;
     
 }
 .sec_two_col_one{
@@ -208,10 +208,7 @@ p{
 .content_sec_two:hover{
     text-decoration: underline;
 }
-h3{
-    padding: 0;
-    margin: 0;
-}
+
 #row_two_column_two{
     box-sizing: border-box;
     margin:0;
@@ -281,34 +278,12 @@ footer{
 }
 #return_top:hover{
     color:#5397b4;
+
 }
-@media only screen and (max-width:110rem){
-    body{
-        
-        
-    }
-    header{
-       
-        
-    }
-    #image{
-       
-        
-    }
-}
-
-
-
-
-
-
-
-
-
-/*css for about us page*/
+/*css for other page*/
 .main_about{
     
-    box-sizing: border-box;
+  box-sizing: border-box;
 }
 .about_section{
         margin: auto;
@@ -320,13 +295,11 @@ footer{
         position: relative;
         top: -31rem;
         box-sizing: border-box;
-     
-    
 }
     
 .about_top{
     width: 60%;
-    height: 128rem;
+    height: 110rem;
     float: left;
     
 }
@@ -424,8 +397,6 @@ footer{
 #contact_right{
     font-size: 18px;
     padding-bottom: 2rem;
-    
-
 }
 #cys_right{
     font-size: 24px;
@@ -437,11 +408,9 @@ footer{
     padding-top: 2rem;
 }
 .smaller_height{
-    height: 200px;
+    height: 180px;
 }
-.text_align{
-    margin: 0;
-    
-    
+
+@media only screen (max-width:78rem){
     
 }
