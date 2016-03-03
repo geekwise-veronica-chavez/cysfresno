@@ -486,7 +486,7 @@ footer{
         
     }
     .logo{
-        width: auto;
+        
     }
     .nav_menu{
         position: absolute;
@@ -520,4 +520,12 @@ footer{
         text-align: center
     }
     
+    .about_section{
+        
+    }
+    .about_top{
+        width: 100%;
+        position: relative;
+        top: 45px;
+    }
 }
