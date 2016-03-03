@@ -476,3 +476,48 @@ footer{
         
     }
 }
+@media only screen and (max-width:48rem){
+    header{
+        width: auto;
+       
+    }
+    .line{
+        display: none;
+        
+    }
+    .logo{
+        width: auto;
+    }
+    .nav_menu{
+        position: absolute;
+    }
+    nav>ul>li{
+        
+    }
+    #image{
+        background-image: url(http://i.imgur.com/B4ceFZR.png);
+        height: 25rem; 
+        width: 90%
+    }
+    .slider{
+       display: none;
+    }
+    footer{
+        width: 100%;
+        margin: 0;
+        padding: 0;
+    }
+    .footer_text_one{
+        width: auto;
+    }
+    #footer_left{
+        padding: 0;
+        width: 100%;
+       text-align: center;
+    }
+    #footer_right{
+        width: 100%;
+        text-align: center
+    }
+    
+}
