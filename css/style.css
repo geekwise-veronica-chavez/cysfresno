@@ -307,7 +307,7 @@ footer{
         padding: 2rem;
         background-color: #fff;
         width: 80%;
-        height: 150rem;
+        height: 130rem;
         border-radius: .5rem;
         position: relative;
         top: -31rem;
@@ -318,7 +318,7 @@ footer{
     
 .about_top{
     width: 60%;
-    height: 100rem;
+    height: 128rem;
     text-align: center;
     float: left;
 }
@@ -363,7 +363,7 @@ footer{
     float: right;
     height: 30rem;
     border: .2rem solid lightgrey;
-    margin-top: 5rem;
+    margin-top: 2rem;
     box-sizing: border-box;
 }
 
@@ -382,7 +382,6 @@ footer{
 .links{
     width: 100%;
     padding-bottom: 1rem;
-    padding-top: rem;
     margin: 0;
     text-align: left;
     
@@ -394,7 +393,4 @@ footer{
 }
 .link_about:hover{
     text-decoration: underline;
-}
-hr{
-    opacity: .5;
 }
