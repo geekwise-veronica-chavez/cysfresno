@@ -448,4 +448,21 @@ footer{
         height: auto;
     }
     
+    .about_section{
+        background-color: transparent;
+        height: auto;
+        
+    }
+    .about_top{
+        width: 100%;
+        background-color: #fff;
+        height: auto;
+        border-radius: .5rem;  
+    }
+    .right_one{
+        width: 100%;
+        background-color: #fff;
+        height: auto;
+        border-radius: .5rem;
+    }
 }
