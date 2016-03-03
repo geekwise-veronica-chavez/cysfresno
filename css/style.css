@@ -176,6 +176,10 @@ p{
    box-shadow: -.2rem .2rem lightgrey;
     
 }
+.margin_top{
+    position: relative;
+    top: -295px;
+}
 
 #row_two_column_one{
     box-sizing: border-box;
