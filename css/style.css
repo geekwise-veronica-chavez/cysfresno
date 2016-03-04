@@ -479,13 +479,25 @@ footer{
 @media only screen and (max-width:48rem){
     header{
         width: auto;
-       
+       margin: 0;
+        padding: 0;
     }
     .line{
         display: none;
         
     }
     .logo{
+        width: 100%;
+        margin: 0;
+        padding: 0;
+        
+    }
+    #top_image{
+        
+        width:60rem auto;
+        max-width: 750px;
+        margin: 0;
+        padding: 0;
         
     }
     .nav_menu{
